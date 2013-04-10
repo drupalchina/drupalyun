@@ -62,6 +62,7 @@ projects[webform][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg_button_order][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
+projects[panels][subdir] = "contrib"
 
 ; Libraries
 libraries[tinymce][download][type] = "get"

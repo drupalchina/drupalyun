@@ -39,6 +39,7 @@ do
 	else
 		mkdir $dir
 	fi
+	chmod -R 755 $dir
 done
 
 # Prepare enviroment

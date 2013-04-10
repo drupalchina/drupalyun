@@ -47,6 +47,10 @@ dependencies[] = views_ui
 dependencies[] = webform
 dependencies[] = wysiwyg
 dependencies[] = xmlsitemap
+dependencies[] = panels
+dependencies[] = panels_mini
+dependencies[] = panels_node
+dependencies[] = panels_ipe
 
 
 files[] = drupalyun.profile
