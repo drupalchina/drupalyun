@@ -24,7 +24,7 @@
 
 * 完成
 
-#### 联系
+### 联系
 
 [Drupalchina](href="http://drupalchina.cn/")
 
