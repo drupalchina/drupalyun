@@ -16,7 +16,6 @@ dependencies[] = list
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
-dependencies[] = overlay
 dependencies[] = path
 dependencies[] = rdf
 dependencies[] = shortcut
@@ -26,6 +25,7 @@ dependencies[] = locale
 
 ; Contrib modules
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
@@ -52,5 +52,7 @@ dependencies[] = panels_mini
 dependencies[] = panels_node
 dependencies[] = panels_ipe
 
+; Custom modules
+dependencies[] = drupalyun_ui
 
 files[] = drupalyun.profile

@@ -1,0 +1,53 @@
+<?php
+
+/**
+ *@file
+ *Defines Friendly UI.
+ */
+
+/**
+ * Implements hook_menu()
+ */
+function drupalyun_ui_menu(){
+  $items['admin/ui'] = array(
+    'title' => 'Admin UI',
+    'description' => 'Manage Site.',
+    'page callback' => 'drupalyun_ui_page',
+    'access arguments' => array('access drupalyun ui'),
+    'file' => 'drupalyun_ui.page.inc',
+    'weight' => -15,
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_permissions()
+ */
+function drupalyun_ui_permissions(){
+  return array(
+    'access drupalyun ui' => array(
+      'title' => t('Access Drupalyun Friendly UI'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_theme()
+ */
+function drupalyun_ui_theme() {
+  return array(
+    'yun_admin_ui' => array(
+      'template' => 'yun-admin-ui',
+      'path' => drupal_get_path('module' ,'drupalyun_ui').'/theme',
+    ),
+  );
+}
+
+/**
+ * Implements HOOK_process_THEMEHOOK()
+ */
+function drupalyun_ui_process_yun_admin_ui(&$vars) {
+  drupal_add_js(drupal_get_path('module', 'drupalyun_ui').'/scripts/yun_ui.js');
+  drupal_add_css(drupal_get_path('module', 'drupalyun_ui').'/styles/yun_ui.css');
+}

@@ -1,0 +1,19 @@
+#core-nav {
+	color: red;
+}
+
+.yun-admin-ui {
+	float:left;
+}
+
+#core-nav {
+	width: 10%;
+}
+
+#core-sub-nav {
+	width: 30%;
+}
+
+#core-nav-content {
+	width: auto;
+}

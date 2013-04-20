@@ -1,0 +1,7 @@
+name = Drupalyun UI
+description = 提供Drupalyun后台管理UI.
+core = 7.x
+package = Drupalyun
+
+files[] = drupalyun.page.inc
+
