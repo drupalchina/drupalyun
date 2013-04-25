@@ -26,6 +26,6 @@
 
 ### 联系
 
-[Drupalchina](http://drupalchina.cn)
+[Drupalchina](http://drupalchina.cn) .
 
 
